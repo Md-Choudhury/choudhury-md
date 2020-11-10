@@ -1,3 +1,16 @@
 while (true) {
-    light.showAnimation(light.rainbowAnimation, 500)
+    light.setPixelColor(0, light.rgb(255, 0, 0))
+    pause(1000)
+    light.setPixelColor(1, light.rgb(0, 0, 255))
+    pause(1000)
+    light.setPixelColor(2, light.rgb(0, 255, 0))
+    pause(1000)
+    light.setPixelColor(3, light.rgb(255, 255, 0))
+    pause(1000)
+    light.setPixelColor(4, light.rgb(255, 0, 255))
+    pause(1000)
+    light.setPixelColor(5, light.rgb(0, 255, 255))
+    pause(2000)
+    light.clear()
+    pause(2000)
 }
